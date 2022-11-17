@@ -14,6 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://jiangtaisheng2020.github.io/person_Blog
+root: /person_Blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,4 +105,4 @@ theme: landscape
 deploy:
   type: git
   repository: https://github.com/jiangtaisheng2020/person_Blog.git
-  branch: main
+  branch: gh-pages
